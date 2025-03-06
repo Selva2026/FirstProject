@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allows wrapping of items */
+  gap: 20px; /* Space between products */
+}
+
+.product-item {
+  flex: 1 1 calc(25% - 20px); 
+  /* Makes each item take up half of the container, minus the gap */
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  padding: 16px;
+  text-align: center;
+}
+
+
+img{
+width: 200px ;
+height: 200px;
+  
+  
+}
+
+.itemv{
+
+  
+}

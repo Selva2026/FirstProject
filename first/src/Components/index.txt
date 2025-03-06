@@ -1,0 +1,24 @@
+
+
+   <ul className='bg-green-500  flex justify-between p-4 font-bold text-lg'>
+            <li className='text-white'>Online Store</li>
+            <li className='flex text-white cursor-pointer'><span><label className=' top-1 bg-white bg-transparent text-blue-900 rounded-full p-1'>{cart.length}</label></span>View Cart</li>
+      </ul>
+    
+
+     cart.some(items => items.id === item.id)?<button className='bg-red-500  rounded-full px-2 text-white font-bold'> Remove From Cart</button>:
+   <button className='bg-green-500 rounded-full px-2 text-white font-bold' onClick={()=>addtocart(item)} >ADD To Cart</button>
+       
+
+         <div>
+      
+
+   <ul className='bg-green-500  flex justify-between p-4 font-bold text-lg'>
+            <li className='text-white'>Online Store</li>
+            <button className='flex text-white cursor-pointer'><span><label className=' top-1 bg-white bg-transparent text-blue-900 rounded-full p-1'>{cart.length}</label></span>View Cart</button>
+           
+      </ul>
+      
+    
+
+    </div>
