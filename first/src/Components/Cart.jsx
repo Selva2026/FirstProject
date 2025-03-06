@@ -34,7 +34,7 @@ function Cart({cart,setCart}) {
             <div className='flex flex-wrap'>
               {cart.map(item => (
              
-                <div className="product-item w-54 m-2 m-2 flex flex-col justify-center list-none  border-2 border-gray-200 " key={item.id}>
+                <div className="product-item w-54 m-2 m-2 flex flex-col justify-centernpm run dropdown-divider list-none  border-2 border-gray-200 " key={item.id}>
                     <img className='' src={item.image}></img>
                 <h1 className='text-blue-500 font-bold ml-4 flex justify-center '>{item.title}</h1>
                 <h1 className='text-blue-500 font-bold ml-4 flex justify-center'>{item.category}</h1>
